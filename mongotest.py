@@ -7,6 +7,9 @@ print(db)
 d={'name':"upasana",
    'email':'upasanasaha40@gmail.com',
    'surname':'Saha'}
+d={'name':"upasana",
+   'email':'upasanasaha40@gmail.com',
+   'surname':'Saha'}
 db1= client['mongotest']
 coll=db1['test']
 coll.insert_one(d)
